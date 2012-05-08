@@ -1,21 +1,22 @@
-<h1>Lista Cytatów</h1>
-
+<style>
+#cytat {border-left:0;border-bottom:0;border-right:0;}
+</style>
 <table class="table">
-  <tr>
+  <thead>
     <th>Cytat</th>
     <th>Zrodlo</th>
     <th></th>
     <th></th>
     <th></th>
-  </tr>
+  </thead>
 
 <% @fortunes.each do |fortune| %>
-  <tr>
-    <td><%= fortune.cytat %></td>
-    <td><%= fortune.zrodlo %></td>
-    <td><%= link_to 'Show', fortune %></td>
-    <td><%= link_to 'Edit', edit_fortune_path(fortune) %></td>
-    <td><%= link_to 'Destroy', fortune, confirm: 'Are you sure?', method: :delete %></td>
+  <tr id="cytat">
+    <td id="cytat"><%= fortune.cytat %></td>
+    <td id="cytat"><%= fortune.zrodlo %></td>
+    <td id="cytat"><%= link_to 'Show', fortune %></td>
+    <td id="cytat"><%= link_to 'Edit', edit_fortune_path(fortune) %></td>
+    <td id="cytat"><%= link_to 'Destroy', fortune, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
