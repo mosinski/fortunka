@@ -13,7 +13,7 @@
       <div class="fill">
         <div class="container">
         <ul class="nav">
-	<li style="line-height:35px;font-size:22px;font-weight:bold;">Cytaty</li>
+	<li style="line-height:35px;font-size:22px;font-weight:bold;font-family: 'Fredericka the Great', cursive;">Cytaty</li>
 	<li><a href="/fortunes">Strona Główna</a></li>
         </ul>
         </div>
