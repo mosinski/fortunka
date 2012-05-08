@@ -1,0 +1,11 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+#
+# Examples:
+#
+#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+#   Mayor.create(name: 'Emanuel', city: cities.first)
+Fortune.create(cytat: 'Porazka daje możliwość rozpoczęcia na nowo w sposób lepiej przemyślany.', zrodlo: 'Henry Ford')
+Fortune.create (cytat: 'Święci mają sympatyczne wady i niesympatyczne zalety.', zrodlo: 'Jan Twardowski')
+Fortune.create (cytat: 'Błogosławiony ten, co nie mając nic do powiedzenia, nie obleka tego faktu w słowa.', :zrodlo => 'Julian Tuwim'
+Fortune.create (cytat: 'Medycyna przynosi często pociechę, czasami łagodzi, rzadko uzdrawia.', :zrodlo => 'Hipokrates'
