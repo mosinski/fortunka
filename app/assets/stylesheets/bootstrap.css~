@@ -157,7 +157,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background: transparent url(./images/tablica.jpg);
+  background: transparent url(tablica.jpg);
 }
 
 a {
@@ -198,7 +198,6 @@ a:hover {
 
 .span12 {
   width: 940px;
-  font-family: 'Londrina Shadow', cursive;
 }
 
 .span11 {

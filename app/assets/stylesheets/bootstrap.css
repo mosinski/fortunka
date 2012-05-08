@@ -37,6 +37,7 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  background: transparent url(tablica.jpg);
 }
 
 a:focus {
@@ -157,7 +158,6 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background: transparent url(./images/tablica.jpg);
 }
 
 a {
