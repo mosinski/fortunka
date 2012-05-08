@@ -1,4 +1,4 @@
-<h1>Listing fortunes</h1>
+<h1>Lista Cytatów</h1>
 
 <table class="table">
   <tr>
@@ -22,4 +22,4 @@
 
 <br />
 
-<%= link_to 'New Fortune', new_fortune_path %>
+<%= link_to 'Dodaj Cytat', new_fortune_path, :class => 'btn' %>
