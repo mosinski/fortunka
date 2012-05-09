@@ -1,12 +1,11 @@
 <style>
-#cytat {border-left:0;border-bottom:0;border-right:0;font-family: 'Londrina Shadow', cursive;}
+#cytat    {border-left:0;border-bottom:0;border-right:0;font-family: 'Londrina Shadow', cursive;font-size:35px;color:white;}
+#przycisk {border-left:0;font-size:35px;color:white;}
 </style>
-<table class="table" BORDER="0">
+<table class="table" id="cytat">
   <thead>
     <th>Cytat</th>
     <th>Zrodlo</th>
-    <th></th>
-    <th></th>
     <th></th>
   </thead>
 
@@ -14,9 +13,9 @@
   <tr id="cytat">
     <td id="cytat"><%= fortune.cytat %></td>
     <td id="cytat"><%= fortune.zrodlo %></td>
-    <td id="cytat"><%= link_to 'Show', fortune %></td>
-    <td id="cytat"><%= link_to 'Edit', edit_fortune_path(fortune) %></td>
-    <td id="cytat"><%= link_to 'Destroy', fortune, confirm: 'Are you sure?', method: :delete %></td>
+    <td id="przycisk"><%= link_to 'Pokaż', fortune,:class => 'btn' %>
+	<%= link_to 'Edit', edit_fortune_path(fortune),:class => 'btn btn-warning'%>
+	<%= link_to 'Destroy', fortune, confirm: 'Are you sure?', method: :delete,:class => 'btn btn-danger' %></td>
   </tr>
 <% end %>
 </table>
