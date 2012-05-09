@@ -1,14 +1,10 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Cytat:</b>
-  <%= @fortune.cytat %>
-</p>
-
-<p>
-  <b>Zrodlo:</b>
-  <%= @fortune.zrodlo %>
+  <font style="font-family: 'Londrina Shadow', cursive;font-size:35px;color:white;"><%= @fortune.cytat %></font>
+  <font style="font-family: 'Londrina Shadow', cursive;font-size:25px;color:white;vertical-align:bottom;"><%= @fortune.zrodlo %></font>
 </p>
 
 <%= link_to 'Edit', edit_fortune_path(@fortune),:class => 'btn btn-warning'%>
+<%= link_to 'Destroy', @fortune, confirm: 'Are you sure?', method: :delete,:class => 'btn btn-danger' %>
 <%= link_to 'Back', fortunes_path,:class => 'btn btn-success' %>
