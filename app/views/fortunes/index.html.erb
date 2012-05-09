@@ -1,6 +1,6 @@
 <style>
 #cytat  {border-left:0;border-bottom:0;border-right:0;border-top:0;font-family: 'Londrina Shadow', cursive;font-size:35px;color:white;text-align:right;}
-#zrodlo {border-left:0;border-bottom:0;border-right:0;border-top:0;font-family: 'Londrina Shadow', cursive;font-size:25px;color:white;vertical-align:bottom;}
+#zrodlo {border-left:0;border-top:0;color:white;vertical-align:bottom;}
 #przycisk {border-left:0;border-top:0;font-size:35px;color:white;}
 </style>
 <table class="table" id="cytat">
@@ -13,7 +13,7 @@
 <% @fortunes.each do |fortune| %>
   <tr id="cytat">
     <td id="cytat"><%= fortune.cytat %></td>
-    <td id="zrodlo"><%= "~"+fortune.zrodlo %></td>
+    <td id="zrodlo"><span class="label label-info"><%= "~"+fortune.zrodlo %></span></td>
     <td id="przycisk"><%= link_to 'Pokaż', fortune,:class => 'btn' %></td>
   </tr>
 <% end %>
