@@ -3,3 +3,18 @@
 
 en:
   hello: "Hello world"
+  will_paginate:
+    previous_label: "«"
+    next_label: "»"
+    page_gap: "…"
+    page_entries_info:
+      single_page:
+        zero:  "Brak Cytatów do wyświetlenia"
+        one:   "Wyświetlany 1 Cytat"
+        other: "Wyświetlane wszystkie %{count} Cytaty"
+      single_page_html:
+        zero:  "Brak Cytatow do wyświetlenia"
+        one:   "Wyświetlany <b>1</b> Cytat"
+        other: "Wyświetlane <b>Wszystkie&nbsp;%{count}</b> Cytaty"
+      multi_page: "Wyświetlane Cytaty %{from} - %{to} z %{count}"
+      multi_page_html: "Wyświetlane Cytaty <b>%{from} – %{to}</b> z <b>%{count}</b>"

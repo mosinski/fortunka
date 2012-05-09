@@ -1,7 +1,7 @@
 <style>
 #cytat  {border-left:0;border-bottom:0;border-right:0;border-top:0;font-family: 'Londrina Shadow', cursive;font-size:35px;color:white;text-align:right;line-height:40px;}
 #zrodlo {border-left:0;border-top:0;color:white;vertical-align:bottom;}
-#przycisk {border-left:0;border-top:0;font-size:35px;color:white;}
+#przycisk {border-left:0;border-top:0;font-size:35px;color:white;vertical-align:middle;}
 </style>
 <table class="table" id="cytat">
   <thead>
@@ -18,7 +18,11 @@
   </tr>
 <% end %>
 </table>
-
-<br />
+<div class="page_info" align="center">
+  <%= page_entries_info @fortunes %>
+</div>
+<div class="pager" align="right">
+  <%= will_paginate @fortunes, :container => false %>
+</div>
 
 <%= link_to 'Dodaj Cytat', new_fortune_path, :class => 'btn' %>
