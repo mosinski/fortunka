@@ -5,5 +5,4 @@ Fortunka na ćwiczenia z Architektury Serwisow Internetowych.
 
 == Aplikacja na heroku
 
-1. At the command prompt, create a new Rails application:
-       fortunkaug.herokuapp.com
+       http://fortunkaug.herokuapp.com
