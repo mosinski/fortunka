@@ -17,6 +17,11 @@
         <ul class="nav">
 	<li style="line-height:35px;font-size:28px;font-weight:bold;font-family: 'Fredericka the Great', cursive;">Cytaty</li>
 	<li><a href="/fortunes">Strona Główna</a></li>
+	<%= form_tag request.path, :method => 'get' do %>
+  	<% content_tag :label do %>
+    	<%= text_field_tag :search, params[:search] %>
+  	<% end %>
+	<% end %>
         </ul>
         </div>
       </div>
