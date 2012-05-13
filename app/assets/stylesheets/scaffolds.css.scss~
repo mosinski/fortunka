@@ -13,12 +13,13 @@ p, ol, ul, td {
 pre {
   background-color: #eee;
   padding: 10px;
-  font-size: 11px; }
+  font-size: 16px;
+  font-family: 'Alegreya SC', serif; }
 
 a {
   color: #000;
   &:visited {
-    color: #666; }
+     }
   &:hover {
     color: #fff;
     background-color: #000; } }
