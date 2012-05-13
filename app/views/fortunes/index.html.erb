@@ -13,9 +13,11 @@
 
 <% @fortunes.each do |fortune| %>
   <tr id="cytat">
+    <pre>
     <td id="cytat"><%= fortune.cytat %></td>
     <td id="zrodlo"><span class="label label-info"><%= "~"+fortune.zrodlo %></span></td>
     <td id="przycisk"><%= link_to 'Pokaż', fortune,:class => 'btn' %></td>
+    </pre>
   </tr>
 <% end %>
 </table>
