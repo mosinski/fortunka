@@ -1,5 +1,5 @@
 class FortunesController < ApplicationController
-
+  helper_method :sort_column, :sort_direction
   # GET /fortunes
   # GET /fortunes.json
   def index
