@@ -3,7 +3,7 @@
 #zrodlo {border-left:0;border-top:0;color:white;vertical-align:bottom;}
 #przycisk {border-left:0;border-top:0;font-size:35px;color:white;vertical-align:middle;}
 </style>
-Sortuj wg: <%= sortable "cytat", "Cytat" %><%= sortable "zrodlo", "Źródło" %>
+<%= sortable "cytat", "Cytat" %><%= sortable "zrodlo", "Źródło" %>
 <table class="table" id="cytat">
   <thead>
     <th id="cytat"></th>
