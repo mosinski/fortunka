@@ -1,6 +1,6 @@
 body {
   background: transparent url(tablica.jpg);
-  color: #333;
+  color: white;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px; }
