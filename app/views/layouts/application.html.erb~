@@ -16,7 +16,7 @@
         <div class="container">
         <ul class="nav">
 	<li style="line-height:40px;font-size:42px;font-weight:bold;font-family: 'Fredericka the Great', cursive;">Cytaty</li>
-	<li style="font-size:22px"><a href="/fortunes">Strona Główna</a></li>
+	<li style="font-size:22px;padding-left:10px;"><a href="/fortunes">Strona Główna</a></li>
 	</ul>
 	<ul class="nav pull-right" style="float:right;">
 	<%= form_tag request.path, :method => 'get' do %>
