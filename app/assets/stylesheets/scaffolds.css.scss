@@ -19,12 +19,12 @@ pre {
   font-family: 'Alegreya SC', serif; }
 
 a {
-  color: #000;
+  color: blue;
   &:visited {
      }
   &:hover {
     color: #fff;
-    background-color: #000; } }
+ } }
 
 div {
   &.field, &.actions {

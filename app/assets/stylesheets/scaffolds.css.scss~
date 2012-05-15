@@ -4,16 +4,8 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px; 
-.topbar, &.nav a{
-&:hover {
-background-color:none;}
-}
 }
 
-.topbar, .nav a{
-&:hover {
-background-color:none;}
-}
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -32,7 +24,7 @@ a {
      }
   &:hover {
     color: #fff;
-    background-color: #000; } }
+ } }
 
 div {
   &.field, &.actions {
