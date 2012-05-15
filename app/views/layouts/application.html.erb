@@ -17,6 +17,8 @@
         <ul class="nav">
 	<li style="line-height:38px;font-size:42px;font-weight:bold;font-family: 'Fredericka the Great', cursive;">Cytaty</li>
 	<li style="alink="none"><a href="/fortunes">Strona Główna</a></li>
+	</ul>
+	<ul class="nav pull-right">
 	<%= form_tag request.path, :method => 'get' do %>
   	<% content_tag :label do %>
     	<%= text_field_tag :search, params[:search] %>

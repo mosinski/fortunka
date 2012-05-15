@@ -19,7 +19,7 @@ pre {
   font-family: 'Alegreya SC', serif; }
 
 a {
-  color: #000;
+  color: gray;
   &:visited {
      }
   &:hover {
