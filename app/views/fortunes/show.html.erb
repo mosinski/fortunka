@@ -4,6 +4,8 @@
   <font style="font-family: 'Alegreya SC', serif;font-size:35px;color:white;"><%= @fortune.cytat %></font>
   <font style="font-family: 'Alegreya SC', serif;font-size:25px;color:white;vertical-align:bottom;">~<%= @fortune.zrodlo %></font>
 </p>
+<div id="fb-root"></div><div id="facebook">[Facebook]</div>
+
 
 <%= link_to 'Edit', edit_fortune_path(@fortune),:class => 'btn btn-warning'%>
 <%= link_to 'Destroy', @fortune, confirm: 'Are you sure?', method: :delete,:class => 'btn btn-danger' %>
